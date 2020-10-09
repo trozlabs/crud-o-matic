@@ -1,0 +1,15 @@
+{
+  "name": "crud-o-matic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect --trace-warnings test/index.js",
+    "test": "node --inspect --trace-warnings test/index.js"
+  },
+  "author": "Shayne Trosdahl<shayne@trozdol.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jsql": "file:../../jsql"
+  }
+}
